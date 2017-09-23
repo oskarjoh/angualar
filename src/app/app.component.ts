@@ -9,5 +9,5 @@ export class AppComponent {
   title = 'bye';
   katt = 'kattja';
   bildekatt = '/assets/img/tva-katter-myser.jpg';
-  bilde = 'oskar.mangosia.com/web/20160314_140539.jpg';
+  bilde = 'http://oskar.mangosia.com/web/20160314_140539.jpg';
 }
