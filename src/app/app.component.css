@@ -3,5 +3,10 @@ img.start {
     max-height:600px; 
 }
 div.bilde_tekst {
-    font-size: 15px;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-top: 3px;
+}
+div.bilde_rame {
+    padding-top: 2px;
 }
