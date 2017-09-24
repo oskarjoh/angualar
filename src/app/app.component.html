@@ -4,13 +4,13 @@
     Welcome to {{title}}!<br/>
     {{katt}}
   </h1>
-  <img onclick="function ('bk');" class="start" src="{{bildekatt}}">
+  <img onClick="function bk();" class="start" src="{{bildekatt}}">
 </div>
 <div class="text">
 </div>
 <script>
-  function ("bk") {
-    goto("{{bildekatt}}")
+  function bk() {
+    window.location = "{{bildekatt}}"
   }
 </script>
 <router-outlet></router-outlet>
