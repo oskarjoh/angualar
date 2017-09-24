@@ -11,8 +11,13 @@
       </a>
     </div>
     <div class="bilde_tekst">
-    <a>dette er {{katt}}</a>  
+      <a>dette er {{katt}}</a> <br/>
     </div>    
+  </div>
+  <div class="bunn">
+    <a *ngFor="let p of loop">
+      {{ p.name_f }} {{p.name_l}}.
+    </a>  
   </div>
 </div>
 <div class="text">
