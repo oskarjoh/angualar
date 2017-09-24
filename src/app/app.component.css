@@ -2,3 +2,6 @@ img.start {
     max-width: 700px;
     max-height:600px; 
 }
+div.bilde_tekst {
+    font-size: 15px;
+}
