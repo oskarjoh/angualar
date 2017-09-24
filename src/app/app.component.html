@@ -6,21 +6,7 @@
   </h1>
   <img class="start" src="{{bildekatt}}">
 </div>
-<div ng-app="myApp" ng-controller="customersCtrl">
-  <table>
-    <tr ng-repeat="x in brukernavn">
-      <td>{{ x.brukernavn }}</td>
-      <td>{{ x.skole }}</td>
-    </tr>
-  </table>
-</div>
-    
-    <script>
-    var app = angular.module('myApp', []);
-    app.controller('customersCtrl', function($scope, $http) {
-        $http.get("http://192.168.0.114/bilder.php")
-        .then(function (response) {$scope.names = response.data.records;});
-    });
-    </script>
+<div>
 
+</div>
 <router-outlet></router-outlet>
