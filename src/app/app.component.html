@@ -1,4 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<a routerLink="/">home</a>
-<a routerLink="bilder">bilder</a>
+<div class="meny">
+  <a routerLink="/">home</a>
+  <a routerLink="bilder">bilder</a>
+</div>
 <router-outlet></router-outlet>
+<div class="bunn">
+    <a *ngFor="let p of loop">
+      {{ p.name_f }} {{p.name_l}}
+    </a>  
+  </div>
