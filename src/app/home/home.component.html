@@ -1,3 +1,23 @@
-<p>
-  home works!
-</p>
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!<br/>
+    {{katt}}
+  </h1>
+  <div class="bilde_rame">
+    <div class="bilde">
+      <a href="{{bildekatt}}">
+        <img class="start" src="{{bildekatt}}">
+      </a>
+    </div>
+    <div class="bilde_tekst">
+      <a>dette er {{katt}}</a> <br/>
+    </div>    
+  </div>
+  <div class="bunn">
+    <a *ngFor="let p of loop">
+      {{ p.name_f }} {{p.name_l}}.
+    </a>  
+  </div>
+</div>
+  <div class="text">
+</div>

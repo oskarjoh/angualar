@@ -1,0 +1,19 @@
+img.start {
+    max-width: 700px;
+    max-height:600px; 
+}
+div.bilde_tekst {
+    font-family: fantasy;
+    font-size: 20px;
+    padding-top: 3px;
+}
+div.bilde_rame {
+    padding-top: 2px;
+}
+div.bunn {
+    bottom: 0%;
+    margin-top: 10px;
+    background-color: #8F00B3;
+    max-width: 100%;
+    color:#fff
+}
