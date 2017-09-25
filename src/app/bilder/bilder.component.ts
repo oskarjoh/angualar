@@ -12,4 +12,5 @@ export class BilderComponent implements OnInit {
   ngOnInit() {
   }
 
+  b = 'bilder'
 }
