@@ -2,6 +2,7 @@
   <h1>{{b}}</h1>
 </div>
 <div class="bilder">
-  <a *ngFor="let b of bsrc"></a>
-  <img src="{{b.src}}" alt="">
+  <div>
+    <img *ngFor="let b of bsrc" class="bildex350" src="{{b.src}}" alt="">
+  </div>
 </div>
