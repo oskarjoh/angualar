@@ -6,3 +6,17 @@ div.bunn {
     color:#fff;
     text-align: center;
 }
+a.knap {
+    min-height: 20px;
+    max-height: 40px;
+    min-width: 25px;
+    padding-left: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+div.meny {
+    background-color: forestgreen;
+    margin: 0px;
+    width: 100%;
+}
