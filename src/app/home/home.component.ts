@@ -13,5 +13,5 @@ export class HomeComponent implements OnInit {
   }
   title = 'bye';
   katt = 'kattja';
-  bildekatt = 'http://192.168.0.114/data/bilder/IMG_20170612_142303462.jpg';
+  bildekatt = 'https://oskar.mangosia.com/web/data/bilder/IMG_20170612_142303462.jpg';
 }
