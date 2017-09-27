@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 div.bunn {
     bottom: 100%;
     margin-top: 10px;
@@ -6,18 +9,16 @@ div.bunn {
     color:#fff;
     text-align: center;
 }
-a.knap {
-    min-height: 20px;
-    max-height: 40px;
-    min-width: 25px;
-    padding-left: 3px;
+.meny {
+    overflow: hidden;
+    background-color: rgba(89, 187, 32, 0.74);
+}
+.meny a {
+    text-align: center;
+    display: block;
     color: #fff;
     text-decoration: none;
     font-size: 20px;
     font-family: inherit;
-}
-div.meny {
-    background-color: rgba(89, 187, 32, 0.74);
-    margin: 0px;
-    width: 100%;
+    padding: 14px 16px;
 }
