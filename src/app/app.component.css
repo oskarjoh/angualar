@@ -17,7 +17,7 @@ a.knap {
     font-family: inherit;
 }
 div.meny {
-    background-color: forestgreen;
+    background-color: rgba(89, 187, 32, 0.74);
     margin: 0px;
     width: 100%;
 }
