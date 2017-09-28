@@ -12,6 +12,7 @@ div.bunn {
 .meny {
     overflow: hidden;
     background-color: rgba(89, 187, 32, 0.74);
+    border-radius: 50%;
 }
 .meny a {
     text-align: center;
