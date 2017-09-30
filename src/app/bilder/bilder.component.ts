@@ -14,7 +14,7 @@ export class BilderComponent implements OnInit {
 
   b = 'bilder';
   bsrc = [
-    {src:"https://oskar.mangosia.no/web/data/bilder/drone/DJI_0016.JPG"},
+    {src:"https://oskar.mangosia.com/web/data/bilder/drone/DJI_0016.JPG"},
     {src: "https://oskar.mangosia.com/web/data/bilder/drone/DJI_0017.JPG"},
     {src: "https://oskar.mangosia.com/web/data/bilder/drone/DJI_0018.JPG"}
   ];
