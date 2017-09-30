@@ -4,6 +4,8 @@
 <div class="bilder">
   <div class="dronebilder">
    <h3>bilder fra dronen min</h3>
-    <img *ngFor="let b of bsrc" class="bildex350" src="{{b.src}}" alt="">
+   <a *ngFor="let b of bsrc" href="{{b.src}}">
+    <img class="bildex350" src="{{b.src}}" alt="">
+  </a>
   </div>
 </div>
