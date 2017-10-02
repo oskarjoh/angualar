@@ -24,9 +24,6 @@ div.bunn {
     font-size: 20px;
     padding: 14px 16px
 }
-.active {
-    color: firebrick;
-}
 .meny a:hover {
     background-color: #C9BABA;
 }
