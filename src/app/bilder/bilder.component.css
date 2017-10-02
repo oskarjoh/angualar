@@ -5,3 +5,7 @@ img.bildex350 {
     max-width: 350px;
     padding: 5px;
 }
+a.bilde_ramex350 {
+    max-width: 350px;
+    max-height: auto;
+}
