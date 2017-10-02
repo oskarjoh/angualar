@@ -14,7 +14,7 @@ div.bunn {
     background-color: rgba(89, 187, 32, 0.74);
 }
 .menyi {
-    
+    float: left;
 }
 .menyi a {
     text-align: center;
@@ -23,6 +23,9 @@ div.bunn {
     text-decoration: none;
     font-size: 20px;
     padding: 14px 16px
+}
+.active {
+    color: firebrick;
 }
 .meny a:hover {
     background-color: #C9BABA;
