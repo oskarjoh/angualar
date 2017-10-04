@@ -28,5 +28,8 @@
             echo "0 results";
         }
         $conn->close();
+        return($src, $title);
     }
+    hent_db();
+    echo $src. $title
 ?>
