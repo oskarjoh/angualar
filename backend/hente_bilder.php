@@ -31,5 +31,5 @@
         return($src, $title);
     }
     hent_db();
-    echo $src. $title
+    echo $src. $title;
 ?>
