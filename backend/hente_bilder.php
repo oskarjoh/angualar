@@ -21,7 +21,8 @@
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-                echo "id: " . $row["id"]. " - fill: " . $row["src"]. " - title: " . $row["title"]. "<br>";
+                $src[] = $row["src"];
+                $title[] = $row["title"]
             }
         } else {
             echo "0 results";
