@@ -21,15 +21,14 @@
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-                $src[] = $row["src"];
-                $title[] = $row["title"]
+              $bilder = array($row["src"], $row["title"])
             }
         } else {
             echo "0 results";
         }
         $conn->close();
-        return($src, $title);
+        return($bilder);
     }
     hent_db();
-    echo $src. $title;
+    echo $bilder;
 ?>
