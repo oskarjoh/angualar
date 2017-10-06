@@ -22,12 +22,12 @@
             // output data of each row
             while($row = $result->fetch_assoc()) {
               $bilder = array($row["src"], $row["title"])
+              return($bilder);
             }
         } else {
             echo "0 results";
         }
         $conn->close();
-        return($bilder);
     }
     hent_db();
     echo $bilder;
