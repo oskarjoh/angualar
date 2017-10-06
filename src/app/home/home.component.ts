@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-  title = 'bye';
+  title = 'oskar.mangosia.com';
   katt = 'kattja';
   bildekatt = 'https://oskar.mangosia.com/web/data/bilder/IMG_20170612_142303462.jpg';
 }
