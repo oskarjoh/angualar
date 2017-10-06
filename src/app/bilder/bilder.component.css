@@ -8,4 +8,5 @@ img.bildex350 {
 a.bilde_ramex350 {
     max-width: 350px;
     max-height: auto;
+    text-decoration: none;
 }
