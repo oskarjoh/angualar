@@ -22,6 +22,7 @@
             // output data of each row
             while($row = $result->fetch_assoc()) {
               $bilder = array($row["src"], $row["title"])
+              // skal returnere dataen fra databasen
               return($bilder);
             }
         } else {
@@ -30,5 +31,6 @@
         $conn->close();
     }
     hent_db();
+    // dene delen skal bere skrive det som stør i return delen
     echo $bilder;
 ?>
