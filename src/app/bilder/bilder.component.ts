@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bilder.component.css']
 })
 export class BilderComponent implements OnInit {
-
+  h3tekst ='bilder fra dronen min';
   constructor() { }
 
   ngOnInit() {
