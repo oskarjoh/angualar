@@ -8,7 +8,6 @@ import { FormsModule} from '@angular/forms';
 })
 export class BilderComponent implements OnInit {
   h3tekst ='bilder fra dronen min';
-  test = getSelection.arguments.id.bid;
   constructor() { }
 
   ngOnInit() {
@@ -20,7 +19,7 @@ export class BilderComponent implements OnInit {
   }
   // skal velge vilken bilder som blir vist
   bid(){
-    if (test < 3) {
+    if (5 < 3) {
       this.h3tekst="if funker";
     }
   }
