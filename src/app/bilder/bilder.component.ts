@@ -13,7 +13,19 @@ export class BilderComponent implements OnInit {
   ngOnInit() {
   }
   test = 2;
+  selectedEntry;
+  public entries = [
+    {
+      id: 1,
+      description: "verdi 1"
+    },
+    {
+      id: 2,
+      description: "verdi 2"
+    }
+  ];
   b = 'bilder';
+  input1 = '';
   akra(){
     this.h3tekst="Akra";
   }
@@ -21,6 +33,19 @@ export class BilderComponent implements OnInit {
   bid(){
     if (this.test < 3) {
       this.h3tekst="if funker";
+    }
+    else if (this.test = 6) {
+      this.h3tekst="bilder fra dronen min";
+    }
+  }
+
+  bid2(entry){
+    this.selectedEntry = entry;
+    if (this.selectedEntry.id == 1) {
+      this.h3tekst="if funker";
+    }
+    else if (this.selectedEntry.id == 2) {
+      this.h3tekst="bilder fra dronen min";
     }
   }
 
