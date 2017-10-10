@@ -30,15 +30,6 @@ export class BilderComponent implements OnInit {
     this.h3tekst="Akra";
   }
   // skal velge vilken bilder som blir vist
-  bid(){
-    if (this.test < 3) {
-      this.h3tekst="if funker";
-    }
-    else if (this.test = 6) {
-      this.h3tekst="bilder fra dronen min";
-    }
-  }
-
   bid2(entry){
     this.selectedEntry = entry;
     if (this.selectedEntry.id == 1) {
